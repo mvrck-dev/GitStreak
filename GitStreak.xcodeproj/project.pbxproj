@@ -42,24 +42,6 @@
 >>>>>>> 4301ade (README.md creation)
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		E3C6EF2A2D8CB6C400355D5B /* GitStreak */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GitStreak;
-			sourceTree = "<group>";
-		};
-		E3C6EF3C2D8CB6C700355D5B /* GitStreakTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GitStreakTests;
-			sourceTree = "<group>";
-		};
-		E3C6EF462D8CB6C700355D5B /* GitStreakUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GitStreakUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
 		E3C6EF252D8CB6C400355D5B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -92,10 +74,13 @@
 =======
 				E3C6EF762D8CBA9000355D5B /* .gitignore */,
 				E3C6EF7C2D8CBA9000355D5B /* README.md */,
+<<<<<<< HEAD
 >>>>>>> 4301ade (README.md creation)
 				E3C6EF2A2D8CB6C400355D5B /* GitStreak */,
 				E3C6EF3C2D8CB6C700355D5B /* GitStreakTests */,
 				E3C6EF462D8CB6C700355D5B /* GitStreakUITests */,
+=======
+>>>>>>> 182a4b9 (README.md creation)
 				E3C6EF292D8CB6C400355D5B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -125,9 +110,6 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				E3C6EF2A2D8CB6C400355D5B /* GitStreak */,
-			);
 			name = GitStreak;
 			packageProductDependencies = (
 			);
@@ -148,9 +130,6 @@
 			dependencies = (
 				E3C6EF3B2D8CB6C700355D5B /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				E3C6EF3C2D8CB6C700355D5B /* GitStreakTests */,
-			);
 			name = GitStreakTests;
 			packageProductDependencies = (
 			);
@@ -170,9 +149,6 @@
 			);
 			dependencies = (
 				E3C6EF452D8CB6C700355D5B /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				E3C6EF462D8CB6C700355D5B /* GitStreakUITests */,
 			);
 			name = GitStreakUITests;
 			packageProductDependencies = (
