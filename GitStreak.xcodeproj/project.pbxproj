@@ -35,6 +35,7 @@
 			path = GitStreak;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		E3C6EF3C2D8CB6C700355D5B /* GitStreakTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = GitStreakTests;
@@ -45,6 +46,8 @@
 			path = GitStreakUITests;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> 9fea78c (still shit - nothing works)
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +79,11 @@
 			isa = PBXGroup;
 			children = (
 				E3C6EF2A2D8CB6C400355D5B /* GitStreak */,
+<<<<<<< HEAD
 				E3C6EF3C2D8CB6C700355D5B /* GitStreakTests */,
 				E3C6EF462D8CB6C700355D5B /* GitStreakUITests */,
+=======
+>>>>>>> 9fea78c (still shit - nothing works)
 				E3C6EF292D8CB6C400355D5B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +136,12 @@
 			dependencies = (
 				E3C6EF3B2D8CB6C700355D5B /* PBXTargetDependency */,
 			);
+<<<<<<< HEAD
 			fileSystemSynchronizedGroups = (
 				E3C6EF3C2D8CB6C700355D5B /* GitStreakTests */,
 			);
+=======
+>>>>>>> 9fea78c (still shit - nothing works)
 			name = GitStreakTests;
 			packageProductDependencies = (
 			);
@@ -153,9 +162,12 @@
 			dependencies = (
 				E3C6EF452D8CB6C700355D5B /* PBXTargetDependency */,
 			);
+<<<<<<< HEAD
 			fileSystemSynchronizedGroups = (
 				E3C6EF462D8CB6C700355D5B /* GitStreakUITests */,
 			);
+=======
+>>>>>>> 9fea78c (still shit - nothing works)
 			name = GitStreakUITests;
 			packageProductDependencies = (
 			);

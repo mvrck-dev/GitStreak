@@ -8,6 +8,34 @@
 
 import SwiftUI
 import AppKit
+<<<<<<< HEAD
+=======
+import Cocoa
+
+var settingsWindow: NSWindow?
+
+ func openSettingsWindow() {
+     if settingsWindow == nil {
+         let settingsView = GitStreakSettingsView()
+         let window = NSWindow(
+             contentRect: NSRect(x: 0, y: 0, width: 400, height: 300),
+             styleMask: [.titled, .closable, .resizable],
+             backing: .buffered, defer: false
+         )
+         window.center()
+         window.setFrameAutosaveName("Settings")
+         window.contentView = NSHostingView(rootView: settingsView)
+         window.isOpaque = false
+         window.backgroundColor = .clear
+         window.makeKeyAndOrderFront(nil)
+         settingsWindow = window
+     } else {
+         settingsWindow?.makeKeyAndOrderFront(nil)
+     }
+ }
+
+
+>>>>>>> 9fea78c (still shit - nothing works)
 
 class AppDelegate: NSObject, NSApplicationDelegate {
     var statusItem: NSStatusItem?
@@ -27,6 +55,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             button.action = #selector(togglePopover(_:))
             button.target = self
         }
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 9fea78c (still shit - nothing works)
 
         // Set up popover view
         popover.contentViewController = NSHostingController(rootView: PopoverView())
@@ -81,6 +113,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 9fea78c (still shit - nothing works)
 extension NSColor {
     convenience init?(hex: String) {
         var hexSanitized = hex.trimmingCharacters(in: .whitespacesAndNewlines)
