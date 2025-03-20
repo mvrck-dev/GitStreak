@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+<<<<<<< HEAD
+=======
+/* Begin PBXBuildFile section */
+		E3C6EF7E2D8CBA9000355D5B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E3C6EF762D8CBA9000355D5B /* .gitignore */; };
+		E3C6EF802D8CBA9000355D5B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E3C6EF7C2D8CBA9000355D5B /* README.md */; };
+/* End PBXBuildFile section */
+
+>>>>>>> 4301ade (README.md creation)
 /* Begin PBXContainerItemProxy section */
 		E3C6EF3A2D8CB6C700355D5B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +35,11 @@
 		E3C6EF282D8CB6C400355D5B /* GitStreak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitStreak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C6EF392D8CB6C700355D5B /* GitStreakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitStreakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C6EF432D8CB6C700355D5B /* GitStreakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitStreakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+<<<<<<< HEAD
+=======
+		E3C6EF762D8CBA9000355D5B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		E3C6EF7C2D8CBA9000355D5B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+>>>>>>> 4301ade (README.md creation)
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +88,11 @@
 		E3C6EF1F2D8CB6C400355D5B = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
+=======
+				E3C6EF762D8CBA9000355D5B /* .gitignore */,
+				E3C6EF7C2D8CBA9000355D5B /* README.md */,
+>>>>>>> 4301ade (README.md creation)
 				E3C6EF2A2D8CB6C400355D5B /* GitStreak */,
 				E3C6EF3C2D8CB6C700355D5B /* GitStreakTests */,
 				E3C6EF462D8CB6C700355D5B /* GitStreakUITests */,
@@ -212,6 +230,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
+=======
+				E3C6EF7E2D8CBA9000355D5B /* .gitignore in Resources */,
+				E3C6EF802D8CBA9000355D5B /* README.md in Resources */,
+>>>>>>> 4301ade (README.md creation)
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
